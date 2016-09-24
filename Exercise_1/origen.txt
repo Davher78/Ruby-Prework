@@ -1,0 +1,3 @@
+# fichero origen
+Contenido del fichero 1 que va a ser copiado al fichero 2
+Esperamos que funcione correctamente
