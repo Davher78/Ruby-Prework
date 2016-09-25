@@ -1,14 +1,10 @@
 
 
 # funcion fizzbuzz sin parámetros
-def fizzbuzz()
-  
-	100.times do |num|
-	  
-	  # inicializamos num a 1 (no existe el alumno 0)
-	  numero = num +1
-	  
-	  salida =""
+
+def fizzbuzz(numero)
+
+      salida =""
 	  # comprobamos si es multiplo de 3
 	  if numero.modulo(3) == 0 
 	       salida = "Fizz "
@@ -21,12 +17,19 @@ def fizzbuzz()
 	  if salida == "" 
 	       salida = numero
 	  end
-	  # escribimos la salida
-	  puts salida
 
-	end
+	  return salida
 
 end
 
 # llamamos a la función
-fizzbuzz
+
+100.times do |num|
+	  
+	  # inicializamos num a 1 (no existe el alumno 0)
+	  numero = num +1
+	  
+	  # escribimos la salida
+	  puts fizzbuzz(numero)
+
+end
