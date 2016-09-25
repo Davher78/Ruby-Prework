@@ -1,6 +1,6 @@
 
 
-33.times do |num|
+100.times do |num|
   
   # inicializamos num a 1 (no existe el alumno 0)
   numero = num +1
