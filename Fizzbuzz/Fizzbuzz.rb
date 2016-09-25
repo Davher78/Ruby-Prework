@@ -2,7 +2,7 @@
 
 # funcion fizzbuzz sin parámetros
 
-def fizzbuzz(numero)
+def CadenaSalida(numero)
 
       salida =""
 	  # comprobamos si es multiplo de 3
@@ -24,12 +24,16 @@ end
 
 # llamamos a la función
 
-100.times do |num|
-	  
-	  # inicializamos num a 1 (no existe el alumno 0)
-	  numero = num +1
-	  
-	  # escribimos la salida
-	  puts fizzbuzz(numero)
+def FizzBuzz(inicio, fin)
+
+	for num in (inicio..fin)
+		  
+		  # escribimos la salida
+		  puts CadenaSalida(num)
+
+	end
 
 end
+
+FizzBuzz(1, 100)
+
