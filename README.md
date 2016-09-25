@@ -8,6 +8,8 @@ Exercise: Copy a file
 
 Exercise: FizzBuzz
 
+Exercise: Shopping cart
+
 Exercise: Word sorting
 
-Exercise: Shopping cart
+
