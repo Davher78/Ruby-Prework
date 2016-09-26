@@ -12,4 +12,8 @@ Exercise: Shopping cart
 
 Exercise: Word sorting
 
+Exercise: CaesarCipher
+
+Exercise: Shake Shack
+
 
