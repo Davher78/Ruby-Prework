@@ -1,7 +1,8 @@
 
-def special_character(number,posicion)
+def special_character(letter)
 
-		number = number.ord
+		posicion = -3
+		number = letter.ord
 
 		# si es un espacio devuelve un espacio
 		if number == 32 
@@ -14,7 +15,7 @@ def special_character(number,posicion)
 
 end
 
-def solve_cipher(input, position)
+def solve_cipher(input)
   #your code goes here
 
     letters = []
@@ -23,7 +24,7 @@ def solve_cipher(input, position)
     
 	letters.each do |letter|
 
-        newletters << special_character(letter,position)
+        newletters << special_character(letter)
 
 	end
 
@@ -31,4 +32,4 @@ def solve_cipher(input, position)
 
 end
 
-puts solve_cipher("p| uhdo qdph lv grqdog gxfn", -3)
+puts solve_cipher("p| uhdo qdph lv grqdog gxfn")
